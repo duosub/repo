@@ -1,0 +1,11 @@
+Origin: DuoSuob
+Label: DuoSuob Repo
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Professional Dual Subtitles Tool
+MD5Sum:
+ 3dfa1bf2c35979ab832a5bd58690ad07              523 Packages
+SHA256:
+ fd01e7286bf17ace71459e7bc8c972fcb046881dc9a11b8ad8c8881689c70974              523 Packages

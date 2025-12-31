@@ -1,0 +1,15 @@
+Package: duosub-desktop
+Version: 1.0.0
+Architecture: all
+Maintainer: DuoSub Labs <contact@duosub.github.io>
+Depends: python3, translate-shell, wget, gawk
+Filename: ./duosub-desktop.deb
+Size: 79212
+MD5sum: 5c0e9f6cb68d3abe1e0c160144f11808
+SHA1: bd50c7752217a3f1a232ae763bc0c8f4c2e56bfd
+SHA256: 8dd1832b1244e2028406ed90810193f1506d74afd35526ff27d4c95e45ec820a
+Section: utils
+Priority: optional
+Description: Professional tool for creating dual subtitles.
+ Supports Google, Bing, and Yandex engines. Optimized for KDE Plasma.
+
