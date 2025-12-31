@@ -2,6 +2,7 @@ Origin: DuoSuob
 Label: DuoSuob Repo
 Suite: stable
 Codename: stable
+Date: Wed, 31 Dec 2025 19:46:12 UTC
 Architectures: amd64
 Components: main
 Description: Professional Dual Subtitles Tool
