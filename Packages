@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: DuoSub Labs <contact@duosub.github.io>
 Depends: python3, translate-shell, wget, gawk
 Filename: ./duosub-desktop.deb
-Size: 79212
-MD5sum: 5c0e9f6cb68d3abe1e0c160144f11808
-SHA1: bd50c7752217a3f1a232ae763bc0c8f4c2e56bfd
-SHA256: 8dd1832b1244e2028406ed90810193f1506d74afd35526ff27d4c95e45ec820a
+Size: 79644
+MD5sum: f8fe6c78674188f595a67d4281286239
+SHA1: ba8e9a46697b8d8e5e3fe27db336e57fc609112d
+SHA256: 4d57ff0fbce1bf9e52058b49a65bb351d266ebce26694ffc6790aa49bdbefc73
 Section: utils
 Priority: optional
 Description: Professional tool for creating dual subtitles.
