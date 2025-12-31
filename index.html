@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuoSuob Desktop — Create Dual Subtitles (Bilingual)</title>
+    <meta name="description" content="Download DuoSuob Desktop for Linux. Professional tool for automatic translation and creating bilingual subtitles (SRT, ASS) for language learning.">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; background: #f4f4f9; color: #333; }
+        code { background: #eee; padding: 2px 5px; border-radius: 3px; font-family: monospace; }
+        pre { background: #2d2d2d; color: #ccc; padding: 15px; overflow-x: auto; border-radius: 5px; font-size: 14px; }
+        .btn { display: inline-block; background: #3a7bd5; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 10px 0; font-weight: bold; }
+        .btn:hover { background: #2c5aa0; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3a7bd5; padding-bottom: 10px; }
+        h2 { margin-top: 30px; color: #2c3e50; }
+        .feature-list { list-style: none; padding: 0; }
+        .feature-list li::before { content: "✅ "; margin-right: 5px; }
+    </style>
+</head>
+<body>
+    <h1>🎬 DuoSuob Desktop</h1>
+    <p><strong>DuoSuob Desktop</strong> is a modern Open Source application for Linux (Debian/KDE) designed to automatically create <strong>dual subtitles</strong>. It is the perfect companion for learning foreign languages by watching movies and TV shows.</p>
+
+    <h2>🚀 Key Features</h2>
+    <ul class="feature-list">
+        <li><strong>Smart Merging:</strong> Combine two different subtitle files into one bilingual file.</li>
+        <li><strong>Auto-Translation:</strong> Built-in support for Google, Bing, and Yandex translation engines.</li>
+        <li><strong>Format Support:</strong> Full compatibility with SRT, ASS, SSA, and more via pysubs2.</li>
+        <li><strong>Style Customization:</strong> Choose fonts, colors, and screen positions (top/bottom) for each language.</li>
+        <li><strong>Standalone:</strong> All dependencies are bundled inside; the app works immediately after installation.</li>
+    </ul>
+
+    <h2>📦 Installation (Debian / KDE / Ubuntu)</h2>
+    <p>Open your terminal and run the following commands to add the repository and install the app:</p>
+    <pre>
+# Add the repository
+echo "deb [trusted=yes] https://duosub.github.io/repo/ ./" | sudo tee /etc/apt/sources.list.d/duosub.list
+
+# Update and Install
+sudo apt update
+sudo apt install duosub-desktop</pre>
+
+    <h2>📖 How to Use</h2>
+    <ol>
+        <li>Launch the app from your Application Menu (Multimedia or Utilities section).</li>
+        <li>Click <strong>"Open File"</strong> and select your original subtitle file.</li>
+        <li>Select the target language and translation engine.</li>
+        <li>Click <strong>"Create Dual Subtitles"</strong>. The app will generate a new file where the translation is placed under the original text.</li>
+    </ol>
+
+    <p><a href="https://github.com/duosub/repo" class="btn">Source Code on GitHub</a></p>
+    
+    <hr>
+    <footer style="font-size: 0.8em; color: #777; margin-top: 50px;">
+        DuoSuob Desktop 2025. Developed for the language learning community.
+    </footer>
+</body>
+</html>
